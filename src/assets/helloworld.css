@@ -1,0 +1,121 @@
+.topBanner{
+  width: 375px;
+  transition-duration: 300ms;
+  transform: translate(0px, 0px);
+}
+ img{
+  width: 100%;
+}
+ .radio{
+   margin-bottom: 7px;
+   margin-top: 7px;
+   margin-left: 10px;
+   margin-right: 10px;
+ }
+ body,html{
+   background: #555;
+ }
+.radio h3{
+  font-size: 16px;
+  color: #000;
+  margin-bottom: 11px;
+  font-weight: 400;
+  text-align: left;
+}
+.radio ul{
+  overflow: hidden;
+  margin-right: -8px;
+}
+.radio ul li{
+  float: left;
+  width: 50%;
+  -webkit-box-sizing: border-box;
+  padding-right: 8px;
+  margin-bottom: 10px;
+  overflow: hidden;
+}
+.radio h4{
+  height: 36px;
+  line-height: 18px;
+  white-space: normal;
+  word-wrap: break-word;
+  text-align: left;
+}
+
+/**/
+html, body {
+  position: relative;
+  height: 100%;
+}
+body {
+  background: #000;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color:#000;
+  margin: 0;
+  padding: 0;
+}
+.swiper-container {
+  width: 100%;
+  height: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.swiper-slide {
+  background-size: cover;
+  background-position: center;
+}
+.gallery-top {
+  height: 80%;
+  width: 100%;
+}
+.gallery-thumbs {
+  height: 20%;
+  box-sizing: border-box;
+  padding: 10px 0;
+}
+.gallery-thumbs .swiper-slide {
+  height: 100%;
+  opacity: 0.4;
+}
+.gallery-thumbs .swiper-slide-thumb-active {
+  opacity: 1;
+}
+/**/
+html, body {
+  position: relative;
+  height: 100%;
+}
+body {
+  background: #eee;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color:#000;
+  margin: 0;
+  padding: 0;
+}
+.swiper-container {
+  width: 100%;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
